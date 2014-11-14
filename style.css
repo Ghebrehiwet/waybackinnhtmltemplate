@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width:940px;
+	
+}
+div{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+div.header{
+	width:960px;
+	height:160px;
+	background-color:gray;
+	margin:0px;
+}
+nav{
+	width:960px;
+	height:40px;
+	background-color:green;
+	float:left;
+}
+div.body{
+	width:940px;
+	background-color:red;
+	margin-left:10px;
+}
+div.welcome{
+	width:300px;
+	height:400px;
+	background-color:orange;
+}
+div.flexslider{
+	width:620px;
+	height:400px;
+	background-color:blue;
+}
+div.buttons1{
+	width:930px;
+	height:100px;
+	background-color:green;
+}
+div.buttons2{
+	width:300px;
+	height:340px;
+	background-color:yellow;
+}
+div.testimonials{
+	width:620px;
+	height:340px;
+	background-color:purple;
+}
+div.adds{
+	width:930px;
+	height:160px;
+	background-color:grey;
+}
+footer{
+	width:940px;
+	height:160px;
+	background-color:green;
+	float:left;
+}
+	
