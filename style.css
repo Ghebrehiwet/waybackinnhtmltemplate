@@ -18,13 +18,13 @@ div#wrapper{
 	width:80%;
 	background-color:tan;
 	margin:auto;
-
 }
 
 div#main-content{
 	width:97.916667%;
 	background-color:red;
-	margin:auto;
+	margin:auto; 
+	
 }
 
 div#header{
@@ -93,16 +93,54 @@ footer{
 
 }
 
+.readmore {
+	clear:both;
+}
+
 /*styles for pages desktop*/
 
 #pagecontent {
-	width:74.468085%;
-	height:340px; 
+	width:74.468085%; 
 	float:left;
+	overflow:hidden;
+	padding:5px; 
 }
 
 #primarypagesidebar {
-	width:23.404255%;
-	height:340px; 
+	width:23.404255%; 
 	float:right;
+	overflow:hidden;
+	padding:5px; 
 }
+
+#pagecontent h3 {
+	
+}
+
+#pagecontent p {
+	
+}
+
+#pagecontent #pagemaincontent {
+	width:100%;
+	overflow:hidden;
+	padding:5px; 
+}
+
+#pagecontent #pagemaincontent .pagecontentsection {
+	width:97.916667%;
+	float: left;
+	overflow:hidden;
+	padding:5px; 
+}
+
+#pagecontent #pagemaincontent .pagecontentsection h4{
+	 
+}
+
+#pagecontent #pagemaincontent .pagecontentsection div {
+	 overflow:hidden;
+	 padding:5px; 
+}
+
+
