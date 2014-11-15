@@ -92,3 +92,17 @@ footer{
 	clear:both;
 
 }
+
+/*styles for pages desktop*/
+
+#pagecontent {
+	width:74.468085%;
+	height:340px; 
+	float:left;
+}
+
+#primarypagesidebar {
+	width:23.404255%;
+	height:340px; 
+	float:right;
+}
