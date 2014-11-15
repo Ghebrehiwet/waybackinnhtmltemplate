@@ -2,65 +2,86 @@
 /* CSS Document */
 
 body {
-	width:940px;
-	
+background-color:cyan;
+font-size:1em;
+
 }
-div{
-	float:left;
-	margin-left:5px;
-	margin-right:5px;
-}
-div.header{
+
+div#wrapper{
 	width:960px;
+	background-color:tan;
+	margin:auto;
+
+}
+
+div#main-content{
+	width:97.916667%;
+	background-color:red;
+	margin:auto;
+}
+
+div#header{
+	width:100%;
 	height:160px;
 	background-color:gray;
 	margin:0px;
 }
 nav{
-	width:960px;
+	width:100%;
 	height:40px;
-	background-color:green;
-	float:left;
+	background-color:black;
+	margin:auto;
+
 }
-div.body{
-	width:940px;
-	background-color:red;
-	margin-left:10px;
-}
-div.welcome{
-	width:300px;
+
+div#welcome{
+	width:31.914893%;
 	height:400px;
 	background-color:orange;
-}
-div.flexslider{
-	width:620px;
-	height:400px;
-	background-color:blue;
-}
-div.buttons1{
-	width:930px;
-	height:100px;
-	background-color:green;
-}
-div.buttons2{
-	width:300px;
-	height:340px;
-	background-color:yellow;
-}
-div.testimonials{
-	width:620px;
-	height:340px;
-	background-color:purple;
-}
-div.adds{
-	width:930px;
-	height:160px;
-	background-color:grey;
-}
-footer{
-	width:940px;
-	height:160px;
-	background-color:green;
+	margin-top:20px;
 	float:left;
 }
-	
+div#flexslider{
+	width:65.957446%;
+	height:400px;
+	background-color:blue;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:right;
+}
+div#buttons1{
+	width:100%;
+	height:100px;
+	background-color:green;
+	margin-top:20px;
+	clear:both;
+}
+div#buttons2{
+	width:31.914893%;
+	height:340px;
+	background-color:yellow;
+	margin-top:20px;
+	float:left;
+}
+div#testimonials{
+	width:65.957446%;
+	height:340px;
+	background-color:purple;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:right;
+}
+div#ads{
+	width:100%;
+	height:160px;
+	background-color:grey;
+	clear:both;
+}
+footer{
+	width:100%;
+	height:160px;
+	background-color:green;
+	margin-top:20px;
+	clear:both;
+
+}
