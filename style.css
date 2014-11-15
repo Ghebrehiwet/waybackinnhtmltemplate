@@ -22,7 +22,7 @@ div#wrapper{
 
 div#main-content{
 	width:97.916667%;
-	background-color:red;
+	background-color:#ccc;
 	margin:auto; 
 	
 }
@@ -95,6 +95,7 @@ footer{
 
 .readmore {
 	clear:both;
+	float: right;
 }
 
 /*styles for pages desktop*/
@@ -104,6 +105,7 @@ footer{
 	float:left;
 	overflow:hidden;
 	padding:5px; 
+	background-color: #ddd58e;
 }
 
 #primarypagesidebar {
@@ -114,7 +116,9 @@ footer{
 }
 
 #pagecontent h3 {
-	
+	border-bottom: 3px double #769a0f;
+	margin-bottom:1em;
+	text-align: center;
 }
 
 #pagecontent p {
@@ -135,7 +139,7 @@ footer{
 }
 
 #pagecontent #pagemaincontent .pagecontentsection h4{
-	 
+	 color: #769a0f;
 }
 
 #pagecontent #pagemaincontent .pagecontentsection div {
