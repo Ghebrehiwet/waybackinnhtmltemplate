@@ -13,7 +13,9 @@ background-color:cyan;
 font-size:1em;
 
 }
-
+a {
+	text-decoration:none;
+}
 div#wrapper{
 	width:80%;
 	background-color:tan;
@@ -32,7 +34,21 @@ div#header{
 	height:160px;
 	background-color:gray;
 	margin:0px;
+	font-family:Candara;
+	
+	text-align:center;
+	line-height:160px;
+	vertical-align:middle;
+	
+	
 }
+div#header h1 {
+width:100%;
+font-size:60pt;
+font-weight:normal;
+}
+
+
 nav{
 	width:100%;
 	height:40px;
@@ -90,8 +106,25 @@ footer{
 	background-color:green;
 	margin-top:20px;
 	clear:both;
+	display:table;
 
 }
+footer div {
+	width:33%;
+	vertical-align:middle;
+	display:table-cell;
+}
+footer span {
+	width:100%;
+	display:block;
+}
+footer a {
+	text-align:center;
+	width:100%;
+	display:block;
+}
+
+
 
 .readmore {
 	clear:both;
@@ -146,5 +179,3 @@ footer{
 	 overflow:hidden;
 	 padding:5px; 
 }
-
-
