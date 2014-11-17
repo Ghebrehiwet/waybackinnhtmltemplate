@@ -370,7 +370,92 @@ footer a {
 }
 
 #pagecontent #pagemaincontent .pagecontentsection div {
-	 overflow:hidden;
+	 overflow:hidden; 
+	 
+	 
+	/*index.html*/
+	
+#main-content #content { 
+	float: left;
+	width: 70%;
+	margin: 0 auto; 
+
+}
+
+#post { 
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.post { 
+	width: 100%;
+	margin: 0 auto; 
+	overflow: hidden;
+	
+}
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+	line-height: 1em;
+} 
+
+ .post h4 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+} 
+
+.post-list {
+	width: 100%;
+	margin: 0 auto;
+
+}
+ 
+.post .post-list .postimage {
+	float:left;
+	max-width: 100%;
+	height: auto; 
+}
+
+
+.post .post-list.postmessage {
+	float:right; 
+}
+
+
+
+#direction { 
+	text-align: center;
+}
+
+#direction p{
+	display: inline-block; 
+	text-align: center;
+}
+
+#sidebar-right { 
+	float: right;
+	width: 28%;
+	margin: 0 auto;
+	
+	
+}
+
+#meta h5 {
+	float: left;
+	margin-right: 2em;
+	font-style: italic;
+	color: #008000;
+}
+
+#replyform {
+	width: 300px;
+	height: 180px;
+}
+
+#sidebar-right ul li { 
+	list-style: none; 
+}
+
 <<<<<<< HEAD
 	 padding:5px;
 }
