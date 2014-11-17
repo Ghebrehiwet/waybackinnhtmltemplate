@@ -428,8 +428,9 @@ footer a {
 }
 
 #direction p{
-	display: inline-block; 
+	display: inline; 
 	text-align: center;
+	float: left;
 }
 
 #sidebar-right { 
