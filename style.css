@@ -24,7 +24,7 @@ div#wrapper{
 
 div#main-content{
 	width:97.916667%;
-	background-color:#ccc;
+	background-color:#81B558;
 	margin:auto;
 
 }
@@ -114,7 +114,8 @@ ul#button-list1 li
 {
 display: block;
 float: left;
-width: 31.914893%;
+width: 31.914893%; 
+background-color: #81B558;
 }
 
 ul#button-list1 li a
@@ -174,7 +175,7 @@ border-color: #aaab9c #fff #fff #ccc;
 
 /* Start vertical button list */
 
-#button-container2
+#button-container2 
 {
 background: #f0e7d7;
 width: 31.914893%;
@@ -185,20 +186,21 @@ float:left;
 text-transform: uppercase;
 }
 
-ul#button-list2
+ul#button-list2 
 {
 
 list-style: none;
 width: 100%;
+background-color:#81B558;
 
 }
 
-ul#button-list2 li
+ul#button-list2 li 
 {
 display: block;
 }
 
-ul#button-list2 li a
+ul#button-list2 li a 
 {
 display: block;
 width: 100%;
@@ -226,10 +228,11 @@ background: #f7f2ea;
 }
 
 #button-container2>ul#button-list2 li a { width: auto; }
+#button-container3>ul#button-list2 li a { width: auto; }
 
 
 
-ul#button-list2 li a:hover, ul#button-list2 li#active a:hover
+ul#button-list2 li a:hover, ul#button-list2 li#active a:hover, 
 {
 color: #800000;
 background: transparent;
