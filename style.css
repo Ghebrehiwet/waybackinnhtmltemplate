@@ -15,10 +15,11 @@ font-size:1em;
 }
 a {
 	text-decoration:none;
+	color:#64766A;
 }
 div#wrapper{
 	width:80%;
-	background-color:tan;
+	background-color:#EEF2DC;
 	margin:auto;
 }
 
@@ -32,7 +33,7 @@ div#main-content{
 div#header{
 	width:100%;
 	height:160px;
-	background-color:gray;
+	background-color:#EEF2DC;
 	margin:0px;
 	font-family:Candara;
 	
@@ -44,8 +45,10 @@ div#header{
 }
 div#header h1 {
 width:100%;
-font-size:60pt;
+font-size:40pt;
 font-weight:normal;
+color:#2B621D;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.75);
 }
 
 
@@ -60,9 +63,10 @@ nav{
 div#welcome{
 	width:31.914893%;
 	height:400px;
-	background-color:orange;
+	background-color:#FFFEF9;
 	margin-top:20px;
 	float:left;
+	
 }
 div#flexslider{
 	width:65.957446%;
@@ -103,10 +107,12 @@ div#ads{
 footer{
 	width:100%;
 	height:160px;
-	background-color:green;
+	background-color:#FFFEF9;
 	margin-top:20px;
 	clear:both;
 	display:table;
+	margin-bottom:20px;
+	
 
 }
 footer div {
@@ -117,11 +123,17 @@ footer div {
 footer span {
 	width:100%;
 	display:block;
+	color:#64766A;
 }
 footer a {
 	text-align:center;
 	width:100%;
 	display:block;
+}
+footer span.logo {
+	color:#2B621D;
+	font-size:18pt;
+	font-family:Candara;
 }
 
 
