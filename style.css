@@ -36,11 +36,12 @@ div#header{
 	background-color:#EEF2DC;
 	margin:0px;
 	font-family:Candara;
-
+	
 	text-align:center;
 	line-height:160px;
 	vertical-align:middle;
-
+	
+	
 }
 div#header h1 {
 width:100%;
@@ -50,16 +51,9 @@ color:#2B621D;
 text-shadow: 2px 2px 5px rgba(0,0,0,0.75);
 }
 
-
-
-div#header h1 {
-width:100%;
-font-size:60pt;
-font-weight:normal;
+div#header img {
+	float:left;
 }
-
-
-
 
 
 /*Begin Nav*/
@@ -187,11 +181,35 @@ p.top-level-nav {
 div#welcome{
 	width:31.914893%;
 	height:400px;
-	background-color:#FFFEF9;
 	margin-top:20px;
 	float:left;
-
+	
 }
+div#welcomebox {
+	width:80%;
+	height:300px;
+	border-style:solid;
+	border-width:4pt;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:#B5C966;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+	background-color:#FFFEF9;
+	font-family:Arial;
+	padding:8px;
+	text-align:justify;
+	font-size:14px;
+}
+div#welcomebox span {
+	width:100%;
+	text-align:center;
+	display:block;
+	margin-bottom:10px;
+	font-size:18px;
+	
+}
+
 div#flexslider{
 	width:65.957446%;
 	height:400px;
@@ -276,6 +294,7 @@ ul#button-list1 li a:hover
 color: #800000;
 background: transparent;
 border-color: #aaab9c #fff #fff #ccc;
+}
 
 div#buttons1{
 	width:100%;
@@ -314,7 +333,7 @@ footer{
 	clear:both;
 	display:table;
 	margin-bottom:20px;
-
+	
 
 }
 footer div {
@@ -337,6 +356,7 @@ footer span.logo {
 	font-size:18pt;
 	font-family:Candara;
 }
+
 
 
 
