@@ -24,9 +24,9 @@ div#wrapper{
 
 div#main-content{
 	width:97.916667%;
-	background-color:#81B558;
-	margin:auto;
-
+	background-color:#ccc;
+	margin:auto; 
+	
 }
 
 div#header{
@@ -41,21 +41,12 @@ div#header{
 	vertical-align:middle;
 	
 	
-<<<<<<< Updated upstream
 }
 div#header h1 {
 width:100%;
 font-size:60pt;
 font-weight:normal;
 }
-=======
-}
-div#header h1 {
-width:100%;
-font-size:60pt;
-font-weight:normal;
-}
->>>>>>> Stashed changes
 
 
 nav{
@@ -81,205 +72,20 @@ div#flexslider{
 	margin-bottom:20px;
 	float:right;
 }
-
-/* Begin horizontal button list */
-
-#button-container1
-{
-background: #f0e7d7;
-text-transform: uppercase;
-width:100%
-height:100px;
-clear:both;
+div#buttons1{
+	width:100%;
+	height:100px;
+	background-color:green;
+	margin-top:20px;
+	clear:both;
 }
-
-
-#button-container1:after
-{
-content: ".";
-display: block;
-line-height: 1px;
-font-size: 1px;
-clear: both;
-}
-
-ul#button-list1
-{
-list-style: none;
-padding-right: 2.127659%;
-width:100%;
-}
-
-ul#button-list1 li
-{
-display: block;
-float: left;
-width: 31.914893%; 
-background-color: #81B558;
-}
-
-ul#button-list1 li a
-{
-display: block;
-width: 100%;
-height:100px;
-box-shadow: 4px 4px 2px #d3d3d3;
-border-radius:30px;
-border-width: 1px;
-border-color: #ffe #aaab9c #ccc #fff;
-border-style: solid;
-color: #777;
-text-decoration: none;
-background: #f7f2ea;
-}
-
-#button-one, #button-two
-{
-padding-right: 2.127659%;
-}
-
-#button-one p, #button-two p, #button-three p
-{
-	text-align:center;
-	padding-top:40px;
-}
-
-#button-container1>ul#button-list1 li a { width: auto; }
-
-ul#button-list1
-{
-background: #f0e7d7;
-color: #800000;
-}
-
-ul#button-list1 li a:hover
-{
-color: #800000;
-background: transparent;
-border-color: #aaab9c #fff #fff #ccc;
-}
-
-/* End horizontal button list */
-
-
-
-/*div#buttons2{
+div#buttons2{
 	width:31.914893%;
 	height:340px;
 	background-color:yellow;
 	margin-top:20px;
 	float:left;
 }
-
-*/
-
-/* Start vertical button list */
-
-#button-container2 
-{
-background: #f0e7d7;
-width: 31.914893%;
-height:340px;
-background-color:yellow;
-margin-top:20px;
-float:left;
-text-transform: uppercase;
-}
-
-ul#button-list2 
-{
-
-list-style: none;
-width: 100%;
-background-color:#81B558;
-
-}
-
-ul#button-list2 li 
-{
-display: block;
-}
-
-ul#button-list2 li a 
-{
-display: block;
-width: 100%;
-height:100px;
-box-shadow: 4px 4px 2px #d3d3d3;
-border-width: 1px;
-border-radius:30px;
-border-color: #ffe #aaab9c #ccc #fff;
-border-style: solid;
-color: #777;
-text-decoration: none;
-background: #f7f2ea;
-}
-
-#button-four, #button-five
-{
-
-	margin-bottom:20px;
-}
-
-#button-four p, #button-five p
-{
-	text-align:center;
-	padding-top:40px;
-}
-
-#button-container2>ul#button-list2 li a { width: auto; }
-#button-container3>ul#button-list2 li a { width: auto; }
-
-
-
-ul#button-list2 li a:hover, ul#button-list2 li#active a:hover, 
-{
-color: #800000;
-background: transparent;
-border-color: #aaab9c #fff #fff #ccc;
-}
-
-#social-networking
-{
-	width:100%;
-	height:100px;
-	background-color:blue;
-
-}
-
-#find-us, #facebook, #twitter
-{
-	width:33.33333%;
-	height:100%;
-	float:left;
-}
-
-#find-us
-{
-background-color:white;
-
-
-}
-
-#find-us p
-{
-padding-top:38px;
-font-size:1.1em;
-}
-
-#facebook
-{
-background-color:cyan;
-}
-
-
-#twitter
-{
-background-color:maroon;
-}
-
-/* End vertical button list */
-
 div#testimonials{
 	width:65.957446%;
 	height:340px;
@@ -328,18 +134,18 @@ footer a {
 /*styles for pages desktop*/
 
 #pagecontent {
-	width:74.468085%;
+	width:74.468085%; 
 	float:left;
 	overflow:hidden;
-	padding:5px;
+	padding:5px; 
 	background-color: #ddd58e;
 }
 
 #primarypagesidebar {
-	width:23.404255%;
+	width:23.404255%; 
 	float:right;
 	overflow:hidden;
-	padding:5px;
+	padding:5px; 
 }
 
 #pagecontent h3 {
@@ -349,20 +155,20 @@ footer a {
 }
 
 #pagecontent p {
-
+	
 }
 
 #pagecontent #pagemaincontent {
 	width:100%;
 	overflow:hidden;
-	padding:5px;
+	padding:5px; 
 }
 
 #pagecontent #pagemaincontent .pagecontentsection {
 	width:97.916667%;
 	float: left;
 	overflow:hidden;
-	padding:5px;
+	padding:5px; 
 }
 
 #pagecontent #pagemaincontent .pagecontentsection h4{
@@ -370,101 +176,6 @@ footer a {
 }
 
 #pagecontent #pagemaincontent .pagecontentsection div {
-	 overflow:hidden; 
-	 
-	 
-	/*index.html*/
-	
-#main-content #content { 
-	float: left;
-	width: 70%;
-	margin: 0 auto; 
-
-}
-
-#post { 
-	width: 100%;
-	margin: 0 auto;
-	
-}
-
-.post { 
-	width: 100%;
-	margin: 0 auto; 
-	overflow: hidden;
-	
-}
-
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
-	line-height: 1em;
-} 
-
- .post h4 {
-	font-size: 1.5em;
-	margin-bottom: 1em;
-} 
-
-.post-list {
-	width: 100%;
-	margin: 0 auto;
-
-}
- 
-.post .post-list .postimage {
-	float:left;
-	max-width: 100%;
-	height: auto; 
-}
-
-
-.post .post-list.postmessage {
-	float:right; 
-}
-
-
-
-#direction { 
-	text-align: center;
-}
-
-#direction p{
-	display: inline; 
-	text-align: center;
-	float: left;
-}
-
-#sidebar-right { 
-	float: right;
-	width: 28%;
-	margin: 0 auto;
-	
-	
-}
-
-#meta h5 {
-	float: left;
-	margin-right: 2em;
-	font-style: italic;
-	color: #008000;
-}
-
-#replyform {
-	width: 300px;
-	height: 180px;
-}
-
-#sidebar-right ul li { 
-	list-style: none; 
-}
-
-<<<<<<< HEAD
-	 padding:5px;
-}
-=======
+	 overflow:hidden;
 	 padding:5px; 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
