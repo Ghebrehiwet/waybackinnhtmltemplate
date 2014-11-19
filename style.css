@@ -113,6 +113,11 @@ nav ul li a
 	color: red;
 	font-size: 1em;
 }
+
+nav ul li:hover {
+	
+	height:40px;
+}
 nav ul li a:hover
 {
 	background-color:magenta;
@@ -296,21 +301,122 @@ background: transparent;
 border-color: #aaab9c #fff #fff #ccc;
 }
 
-div#buttons1{
-	width:100%;
-	height:100px;
-	background-color:green;
-	margin-top:20px;
-	clear:both;
+/*End horizontal buttons*/
+
+/*Begin vertical buttons*/
+
+#button-container2
+{
+background: #f0e7d7;
+width: 31.914893%;
+height:340px;
+background-color:yellow;
+margin-top:20px;
+float:left;
+text-transform: uppercase;
+}
+
+ul#button-list2
+{
+
+list-style: none;
+width: 100%;
 
 }
-div#buttons2{
-	width:31.914893%;
-	height:340px;
-	background-color:yellow;
-	margin-top:20px;
+
+ul#button-list2 li
+{
+display: block;
+
+
+
+}
+
+ul#button-list2 li a
+{
+display: block;
+width: 100%;
+height:100px;
+box-shadow: 4px 4px 2px #d3d3d3;
+border-width: 1px;
+border-radius:30px;
+border-color: #ffe #aaab9c #ccc #fff;
+border-style: solid;
+color: #777;
+text-decoration: none;
+background: #f7f2ea;
+}
+
+#button-four, #button-five {
+
+	margin-bottom:20px;
+}
+#button-four p, #button-five p
+{
+	text-align:center;
+	padding-top:40px;
+}
+
+#button-container2>ul#button-list2 li a { width: auto; }
+
+ul#button-list2 li#active a
+{
+background: #f0e7d7;
+color: #800000;
+}
+
+ul#button-list2 li a:hover, ul#button-list2 li#active a:hover
+{
+color: #800000;
+background: transparent;
+border-color: #aaab9c #fff #fff #ccc;
+}
+
+#social-networking
+{
+	width:100%;
+	height:100px;
+	background-color:blue;
+
+}
+
+#find-us, #facebook, #twitter
+{
+	width:33.33333%;
+	height:100%;
 	float:left;
 }
+
+#find-us
+{
+background-color:white;
+
+
+}
+#find-us p
+{
+padding-top:38px;
+font-size:1.1em;
+
+
+}
+#facebook
+{
+background-color:cyan;
+
+
+}
+
+#twitter
+{
+background-color:maroon;
+
+
+}
+
+/*End vertical buttons*/
+
+
 div#testimonials{
 	width:65.957446%;
 	height:340px;
@@ -365,7 +471,7 @@ footer span.logo {
 	float: right;
 }
 
-/*styles for pages desktop*/
+/*styles for pages.html */
 
 #pagecontent {
 	width:74.468085%;
