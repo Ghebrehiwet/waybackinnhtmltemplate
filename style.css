@@ -36,12 +36,12 @@ div#header{
 	background-color:#EEF2DC;
 	margin:0px;
 	font-family:Candara;
-	
+
 	text-align:center;
 	line-height:160px;
 	vertical-align:middle;
-	
-	
+
+
 }
 div#header h1 {
 width:100%;
@@ -96,6 +96,11 @@ nav > li > ul.sub-nav
 	border: 1px solid #CCC;
 }
 
+.sub-nav li p
+{
+padding-top:10px;
+
+}
 nav ul li
 {
 height:100%;
@@ -115,31 +120,35 @@ nav ul li a
 }
 
 nav ul li:hover {
-	
+
 	height:40px;
 }
 nav ul li a:hover
 {
-	background-color:#2B621D;
-	color:#B5C966;
+	background-color:#EEF2DC;
+	color:#2B621D;
 	height:40px;
 
 }
 nav ul li > a
 {
 
-padding-right:20px;
+padding-right:40px;
 }
 
+nav ul li > a:first-child
+{
+	padding-left:10px;
 
+}
 nav ul ul
 {
   display: none;
   position: absolute;
   top:100%;
-  min-width: 160px;
+  min-width: 140px;
   background-color:rgba(43,98,29,0.8);
-  border: 1px solid #CCC;
+  
 }
 nav ul ul li
 {
@@ -188,14 +197,14 @@ div#welcome{
 	height:400px;
 	margin-top:20px;
 	float:left;
-	
+
 }
 div#welcomebox {
 	width:80%;
 	height:376px;
 	border-style:solid;
 	border-width:4pt;
-	
+
 	margin-left:auto;
 	margin-right:auto;
 	border-color:#B5C966;
@@ -212,7 +221,7 @@ div#welcomebox span {
 	display:block;
 	margin-bottom:10px;
 	font-size:18px;
-	
+
 }
 
 div#flexslider{
@@ -439,7 +448,7 @@ footer{
 	clear:both;
 	display:table;
 	margin-bottom:20px;
-	
+
 
 }
 footer div {
