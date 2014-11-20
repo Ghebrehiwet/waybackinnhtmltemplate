@@ -148,7 +148,7 @@ nav ul ul
   top:100%;
   min-width: 140px;
   background-color:rgba(43,98,29,0.8);
-  
+
 }
 nav ul ul li
 {
@@ -193,37 +193,33 @@ p.top-level-nav {
 
 
 div#welcome{
-	width:31.914893%;
-	height:400px;
+	width:31.06383%;
+	height:392px;
 	margin-top:20px;
 	float:left;
-
-}
-div#welcomebox {
-	width:80%;
-	height:376px;
-	border-style:solid;
-	border-width:4pt;
-
-	margin-left:auto;
-	margin-right:auto;
-	border-color:#B5C966;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.75);
-	background-color:#FFFEF9;
+	background-color:#EEF2DC;
 	font-family:Arial;
-	padding:8px;
-	text-align:justify;
-	font-size:14px;
-}
-div#welcomebox span {
-	width:100%;
-	text-align:center;
-	display:block;
-	margin-bottom:10px;
-	font-size:18px;
+
+	border-style:solid;
+	border-width:4px;
+	border-color:#2B621D;
+	overflow:hidden;
 
 }
 
+div#welcome p
+{
+padding: 0 5px 5px 5px;
+font-size:1.1em;
+
+}
+div#welcome p::first-letter
+{
+	font-size:1.3em;
+	font-weight:bold;
+
+
+}
 div#flexslider{
 	width:65.957446%;
 	height:400px;
