@@ -397,35 +397,45 @@ border-color: #aaab9c #fff #fff #ccc;
 	width:33.33333%;
 	height:100%;
 	float:left;
+	background-color:#B9D59D;
 }
 
 #find-us
 {
-background-color:white;
+
 
 
 }
 #find-us p
 {
-padding-top:38px;
-font-size:1.1em;
+padding-top:46px;
+padding-left:5%;
+font-size:1.2em;
+
 
 
 }
 #facebook
 {
-background-color:cyan;
+
 
 
 }
 
 #twitter
 {
-background-color:maroon;
+
 
 
 }
+.social-networking
+{
+width:90%;
+padding-left:10%;
+padding-top:10px;
 
+
+}
 /*End vertical buttons*/
 
 
