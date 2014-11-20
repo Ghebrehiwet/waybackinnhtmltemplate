@@ -234,11 +234,9 @@ div#flexslider{
 
 #button-container1
 {
-<<<<<<< HEAD
+
 background: #2B621DC;
-=======
 background-color:#B9D59D;
->>>>>>> origin/master
 text-transform: uppercase;
 width:100%;
 height:100px;
@@ -315,16 +313,13 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #button-container2
 {
-<<<<<<< HEAD
+
 width: 31.914893%;
 height:340px;
 background-color:#2B621DC;
-=======
 background-color:#B9D59D;
 width: 31.914893%;
 height:340px;
-
->>>>>>> origin/master
 margin-top:20px;
 float:left;
 text-transform: uppercase;
@@ -465,7 +460,7 @@ div#testimonials a {
 	text-align:center;
 	position:absolute;
 	right:0px;
-	bottom:20px;		
+	bottom:20px;
 }
 div#testimonials img {
 	float:left;
