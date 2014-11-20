@@ -25,7 +25,7 @@ div#wrapper{
 
 div#main-content{
 	width:97.916667%;
-	background-color:#ccc;
+	background-color:#B9D59D;
 	margin:auto;
 
 }
@@ -70,7 +70,7 @@ nav{
 nav {
 
 
-	background-color:black ;
+	background-color:#2B621D;
 	height:40px;
 	width:100%;
 	-webkit-transition: all 0.3s ease;
@@ -110,7 +110,7 @@ nav ul li a
 {
 	display: block;
 	text-decoration: none;
-	color: red;
+	color: #EEF2DC;
 	font-size: 1em;
 }
 
@@ -120,8 +120,8 @@ nav ul li:hover {
 }
 nav ul li a:hover
 {
-	background-color:magenta;
-	color:blue;
+	background-color:#2B621D;
+	color:#B5C966;
 	height:40px;
 
 }
@@ -138,7 +138,7 @@ nav ul ul
   position: absolute;
   top:100%;
   min-width: 160px;
-  background-color: green;
+  background-color:rgba(43,98,29,0.8);
   border: 1px solid #CCC;
 }
 nav ul ul li
@@ -170,8 +170,8 @@ nav ul ul > li a
 
 nav ul ul > li a:hover
 {
-	background-color: gray;
-	color: #fff;
+	background-color:#EEF2DC;
+	color:#2B621D;
 	height:40px;
 
 }
@@ -192,10 +192,10 @@ div#welcome{
 }
 div#welcomebox {
 	width:80%;
-	height:300px;
+	height:376px;
 	border-style:solid;
 	border-width:4pt;
-	margin-top:30px;
+	
 	margin-left:auto;
 	margin-right:auto;
 	border-color:#B5C966;
@@ -420,7 +420,7 @@ background-color:maroon;
 div#testimonials{
 	width:65.957446%;
 	height:340px;
-	background-color:purple;
+	background-color:#EEF2DC;
 	margin-top:20px;
 	margin-bottom:20px;
 	float:right;
