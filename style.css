@@ -481,10 +481,7 @@ div#testimonials p {
 	margin-right:10px;
 }
 
-.readmore {
-	clear:both;
-	float: right;
-}
+
 
 div#ads{
 	width:97.872341%;
@@ -591,7 +588,7 @@ margin-left:8%;
 #page-content {
 	width:74.468085%;
 }
-#pagecontent {
+#page-content {
 	width:73.468085%;
 
 	float:left;
@@ -600,15 +597,169 @@ margin-left:8%;
 	font-family:Arial;
 	margin-bottom:10px;
 	text-align:justify;
-	margin-left:1%;
-	margin-top:8px;
+	margin-left:1.0638295%;
+	margin-top:10px;
 	}
 
 #primary-page-sidebar {
 	width:23.404255%;
 	float:right;
-	overflow:hidden;
-	padding:5px;
+	margin-top:10px;
+}
+/*start top list sidebar buttons*/
+#side-bar-buttons1
+{
+	width:95.454546%;
+	margin-right:4.545454%;
+	height:340px;
+	background-color:#B9D59D;
+	margin-top:80px;
+
+	float:left;
+	text-transform: uppercase;
+}
+
+ul#button-list3
+{
+
+	list-style: none;
+	width: 100%;
+
+}
+
+ul#button-list3 li
+{
+	display: block;
+	margin-bottom:20px;
+
+
+
+}
+
+ul#button-list3 li a
+{
+	display: block;
+	width: 100%;
+	height:100px;
+	border-radius:30px;
+	color:#EEF2DC;
+	text-decoration: none;
+	background-color:#2B621D;
+	font-weight:bold;
+	box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.3);
+}
+
+
+
+#side-bar-buttons1>ul#button-list3 li a { width: auto; }
+
+ul#button-list3 li#active a
+{
+	background: #f0e7d7;
+	color: #800000;
+}
+
+ul#button-list3 li a:hover, ul#button-list3 li#active a:hover
+{
+	color: #2B621D;
+	background-color:#EEF2DC;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+
+/*end top list sidebar buttons*/
+
+/*start bottom list sidebar buttons*/
+#side-bar-buttons2
+{
+	width:95.454546%;
+	margin-right:4.545454%;
+	height:380px;
+	background-color:#B9D59D;
+	margin-top:20px;
+
+	float:left;
+	text-transform: uppercase;
+
+}
+
+ul#button-list4
+{
+
+	list-style: none;
+	width: 100%;
+
+}
+
+ul#button-list4 li
+{
+	display: block;
+	margin-bottom:20px;
+
+
+
+}
+
+ul#button-list4 li a
+{
+	display: block;
+	width: 100%;
+	height:100px;
+	border-radius:30px;
+	color:#EEF2DC;
+	text-decoration: none;
+	background-color:#2B621D;
+	font-weight:bold;
+	box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.3);
+}
+
+
+
+#side-bar-buttons2>ul#button-list4 li a { width: auto; }
+
+ul#button-list4 li#active a
+{
+	background: #f0e7d7;
+	color: #800000;
+}
+
+ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
+{
+	color: #2B621D;
+	background-color:#EEF2DC;
+	border-color: #aaab9c #fff #fff #ccc;
+}
+/*end bottom list sidebar buttons*/
+
+
+#side-button-one p, #side-button-two p, #side-button-three p, #side-button-four p, #side-button-five p
+{
+	text-align:center;
+	padding-top:40px;
+}
+#sidebar-social-networking
+{
+	width:100%;
+	height:100px;
+	margin-top:60px;
+
+
+}
+
+#sidebar-facebook, #sidebar-twitter
+{
+	width:33.33333%;
+	margin-left:11%;
+	height:100%;
+	float:left;
+	background-color:#B9D59D;
+}
+
+.social-networking
+{
+	width:100%;
+
+
+
 }
 
 
@@ -621,19 +772,19 @@ margin-left:8%;
 #page-content p {
 
 }
-#pagecontent h3 {
+#page-content h3 {
 	font-size:21pt;
 	margin-top:10px;
 	color:#2B621D;
 	margin-left:20px;
 }
 
-#pagecontent p {
+#page-content p {
 	margin-left:20px;
 	margin-right:20px;
 	margin-top:10px;
 }
-#pagecontent a {
+#page-content a {
 	color:#2B621D;
 
 }
@@ -648,7 +799,7 @@ margin-left:8%;
 #page-content #page-main-content .page-content-section {
 	width:97.916667%;
 }
-#pagecontent #pagemaincontent .pagecontentsection {
+#page-content #page-main-content .page-content-section {
 	width:100%;
 
 	float: left;
@@ -659,26 +810,31 @@ margin-left:8%;
 
 #page-content #page-main-content .page-content-section h4{
 	 color: #769a0f;
+	margin-top:5px;
+	margin-left:20px;
 }
 
 #page-content #page-main-content .page-content-section div {
 	 overflow:hidden;
 
 }
-#pagecontent #pagemaincontent .pagecontentsection h4{
-	 color: #2B621D;
-	 margin-left:20px;
 
-}
 
-#pagecontent #pagemaincontent .pagecontentsection div {
+#page-content #page-main-content .page-content-section div {
 	 overflow:hidden;
 }
 
 
-#pagecontent #pagemaincontent .pagecontentsection img {
+#page-content #page-main-content .page-content-section img {
 	 float:left;
 	 margin-right:20px;
 	 margin-left:20px;
 	 margin-top:10px;
+}
+
+.read-more
+{
+color:blue;
+margin-left:20px;
+
 }
