@@ -511,7 +511,6 @@ width:100%;
 margin-top:6%;
 
 
-
 }
 footer{
 	width:97.872341%;
@@ -521,7 +520,6 @@ footer{
 	margin-top:20px;
 	clear:both;
 	display:table;
-
 
 
 }
@@ -584,9 +582,11 @@ margin-left:8%;
 	width:74.468085%;
 	float:left;
 	overflow:hidden;
-	padding:5px;
-	background-color: #ddd58e;
-}
+	background-color: #FFFEF8;
+	font-family:Arial;
+	margin-bottom:10px;
+	text-align:justify;
+	}
 
 #primarypagesidebar {
 	width:23.404255%;
@@ -596,35 +596,47 @@ margin-left:8%;
 }
 
 #pagecontent h3 {
-	border-bottom: 3px double #769a0f;
-	margin-bottom:1em;
-	text-align: center;
+	font-size:21pt;
+	margin-top:10px;
+	color:#2B621D;
+	margin-left:20px;
 }
 
 #pagecontent p {
-
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+}
+#pagecontent a {
+	color:#2B621D;
 }
 
 #pagecontent #pagemaincontent {
 	width:100%;
 	overflow:hidden;
-	padding:5px;
+	
 }
 
 #pagecontent #pagemaincontent .pagecontentsection {
-	width:97.916667%;
+	width:100%;
 	float: left;
 	overflow:hidden;
-	padding:5px;
+	
 }
 
 #pagecontent #pagemaincontent .pagecontentsection h4{
-	 color: #769a0f;
+	 color: #2B621D;
+	 margin-left:20px;
+	
 }
 
 #pagecontent #pagemaincontent .pagecontentsection div {
-	 overflow:hidden;
+	 overflow:hidden; 
+}
 
-
-	 padding:5px;
+#pagecontent #pagemaincontent .pagecontentsection img {
+	 float:left;
+	 margin-right:20px; 
+	 margin-left:20px;
+	 margin-top:10px;
 }
