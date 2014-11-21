@@ -7,9 +7,10 @@
 html{
 	max-width:1200px;
 	margin:0 auto;
+	background-color:#E6E6E6;
 }
 body {
-background-color:white;
+background-color:#F2F2F2;
 font-size:1em;
 
 }
@@ -21,12 +22,14 @@ div#wrapper{
 	width:80%;
 	background-color:#EEF2DC;
 	margin:auto;
+
 }
 
 div#main-content{
 	width:97.916667%;
 	background-color:#B9D59D;
 	margin:auto;
+
 
 }
 
@@ -137,15 +140,18 @@ nav ul li a:hover
 }
 nav ul li > a
 {
+	padding-right:42px;
 
-padding-right:40px;
+
 }
 
 nav ul li > a:first-child
 {
-	padding-left:10px;
+	padding-left:40px;
 
 }
+
+
 nav ul ul
 {
   display: none;
@@ -193,6 +199,7 @@ nav ul ul > li a:hover
 p.top-level-nav {
 	padding-top:10px;
 }
+
 /*End Nav*/
 
 
@@ -203,6 +210,7 @@ div#welcome{
 	float:left;
 	background-color:#FFFEF8;
 	font-family:Arial;
+	overflow:scroll;
 }
 div#welcome h3
 {
@@ -438,6 +446,7 @@ div#testimonials{
 	margin-bottom:20px;
 	float:right;
 	position:relative;
+	overflow:scroll;
 }
 div#testimonials span {
 	width:100%;
@@ -528,7 +537,7 @@ footer{
 footer div {
 	width:33%;
 	vertical-align:middle;
-	display:table-cell;	
+	display:table-cell;
 }
 footer div:first-child {
 	padding-left:10%;
@@ -580,7 +589,7 @@ margin-left:8%;
 }
 /*styles for pages.html */
 
-#pagecontent {
+#page-content {
 	width:74.468085%;
 	float:left;
 	overflow:hidden;
@@ -588,41 +597,41 @@ margin-left:8%;
 	background-color: #ddd58e;
 }
 
-#primarypagesidebar {
+#primary-page-sidebar {
 	width:23.404255%;
 	float:right;
 	overflow:hidden;
 	padding:5px;
 }
 
-#pagecontent h3 {
+#page-content h3 {
 	border-bottom: 3px double #769a0f;
 	margin-bottom:1em;
 	text-align: center;
 }
 
-#pagecontent p {
+#page-content p {
 
 }
 
-#pagecontent #pagemaincontent {
+#page-content #page-main-content {
 	width:100%;
 	overflow:hidden;
 	padding:5px;
 }
 
-#pagecontent #pagemaincontent .pagecontentsection {
+#page-content #page-main-content .page-content-section {
 	width:97.916667%;
 	float: left;
 	overflow:hidden;
 	padding:5px;
 }
 
-#pagecontent #pagemaincontent .pagecontentsection h4{
+#page-content #page-main-content .page-content-section h4{
 	 color: #769a0f;
 }
 
-#pagecontent #pagemaincontent .pagecontentsection div {
+#page-content #page-main-content .page-content-section div {
 	 overflow:hidden;
 
 
