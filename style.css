@@ -444,7 +444,8 @@ div#testimonials{
 	background-color:#EEF2DC;
 	margin-top:20px;
 	margin-bottom:20px;
-	float:right;	position:relative;
+	float:right;
+	position:relative;
 }
 div#testimonials span {
 	width:100%;
@@ -480,9 +481,40 @@ div#testimonials p {
 
 div#ads{
 	width:100%;
-	height:160px;
-	background-color:grey;
+	height:140px;
+	background-color:#EEF2DC;
 	clear:both;
+}
+#amazon-smile
+{
+
+
+}
+
+#amazon-smile, #volunteer-match, #shop-with-scrip
+{
+width:31.914893%;
+background-color:#EEF2DC;
+float:left;
+height:140px;
+
+
+}
+#amazon-smile, #volunteer-match
+{
+
+margin-right:2.127659%;
+}
+
+.ads
+{
+width:100%;
+margin-top:6%;
+border-color:black;
+border-style:solid;
+border-width:1px;
+
+
 }
 footer{
 	width:100%;
