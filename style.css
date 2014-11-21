@@ -223,12 +223,16 @@ div#welcome p::first-letter
 div#flexslider{
 	width:65.957446%;
 	height:400px;
-	background-color:blue;
+	background-color:#B9D59D;
 	margin-top:20px;
 	margin-bottom:20px;
 	float:right;
 }
+img.flexslider
+{
+	width:100%;
 
+}
 
 /* Begin horizontal button list */
 
