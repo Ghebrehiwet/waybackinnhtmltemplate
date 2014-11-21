@@ -579,13 +579,15 @@ margin-left:8%;
 /*styles for pages.html */
 
 #pagecontent {
-	width:74.468085%;
+	width:73.468085%;
 	float:left;
 	overflow:hidden;
 	background-color: #FFFEF8;
 	font-family:Arial;
 	margin-bottom:10px;
 	text-align:justify;
+	margin-left:1%;
+	margin-top:8px;
 	}
 
 #primarypagesidebar {
