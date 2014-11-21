@@ -520,7 +520,6 @@ width:100%;
 margin-top:6%;
 
 
-
 }
 footer{
 	width:97.872341%;
@@ -530,7 +529,6 @@ footer{
 	margin-top:20px;
 	clear:both;
 	display:table;
-
 
 
 }
@@ -589,13 +587,22 @@ margin-left:8%;
 }
 /*styles for pages.html */
 
+
 #page-content {
 	width:74.468085%;
+}
+#pagecontent {
+	width:73.468085%;
+
 	float:left;
 	overflow:hidden;
-	padding:5px;
-	background-color: #ddd58e;
-}
+	background-color: #FFFEF8;
+	font-family:Arial;
+	margin-bottom:10px;
+	text-align:justify;
+	margin-left:1%;
+	margin-top:8px;
+	}
 
 #primary-page-sidebar {
 	width:23.404255%;
@@ -603,6 +610,7 @@ margin-left:8%;
 	overflow:hidden;
 	padding:5px;
 }
+
 
 #page-content h3 {
 	border-bottom: 3px double #769a0f;
@@ -613,19 +621,41 @@ margin-left:8%;
 #page-content p {
 
 }
+#pagecontent h3 {
+	font-size:21pt;
+	margin-top:10px;
+	color:#2B621D;
+	margin-left:20px;
+}
+
+#pagecontent p {
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+}
+#pagecontent a {
+	color:#2B621D;
+
+}
 
 #page-content #page-main-content {
 	width:100%;
 	overflow:hidden;
-	padding:5px;
+
 }
+
 
 #page-content #page-main-content .page-content-section {
 	width:97.916667%;
+}
+#pagecontent #pagemaincontent .pagecontentsection {
+	width:100%;
+
 	float: left;
 	overflow:hidden;
-	padding:5px;
+
 }
+
 
 #page-content #page-main-content .page-content-section h4{
 	 color: #769a0f;
@@ -634,6 +664,21 @@ margin-left:8%;
 #page-content #page-main-content .page-content-section div {
 	 overflow:hidden;
 
+}
+#pagecontent #pagemaincontent .pagecontentsection h4{
+	 color: #2B621D;
+	 margin-left:20px;
 
-	 padding:5px;
+}
+
+#pagecontent #pagemaincontent .pagecontentsection div {
+	 overflow:hidden;
+}
+
+
+#pagecontent #pagemaincontent .pagecontentsection img {
+	 float:left;
+	 margin-right:20px;
+	 margin-left:20px;
+	 margin-top:10px;
 }
