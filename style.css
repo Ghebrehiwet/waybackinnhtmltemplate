@@ -198,23 +198,22 @@ p.top-level-nav {
 
 
 div#welcome{
-	width:31.06383%;
-	height:392px;
-	margin-top:20px;
+	width:31.914893%;
+	height:400px;
 	float:left;
 	background-color:#FFFEF8;
 	font-family:Arial;
-	border-style:solid;
-	border-width:4px;
-	border-color:#2B621D;
-	overflow:hidden;
+}
+div#welcome h3
+{
+padding-top:5%;
+text-align:center;
 
 }
-
 div#welcome p
 {
-padding: 0 5px 5px 5px;
-font-size:1.1em;
+padding: 5%;
+font-size:1em;
 
 }
 div#welcome p::first-letter
@@ -228,7 +227,7 @@ div#flexslider{
 	width:65.957446%;
 	height:400px;
 	background-color:#B9D59D;
-	margin-top:20px;
+
 	margin-bottom:20px;
 	float:right;
 }
@@ -243,7 +242,7 @@ img.flexslider
 #button-container1
 {
 
-background: #2B621DC;
+
 background-color:#B9D59D;
 text-transform: uppercase;
 width:100%;
@@ -391,33 +390,21 @@ border-color: #aaab9c #fff #fff #ccc;
 {
 	width:100%;
 	height:100px;
-	background-color:blue;
+
 
 }
 
-#find-us, #facebook, #twitter
+ #facebook, #twitter
 {
 	width:33.33333%;
+	margin-left:11%;
 	height:100%;
 	float:left;
 	background-color:#B9D59D;
 }
 
-#find-us
-{
 
 
-
-}
-#find-us p
-{
-padding-top:46px;
-padding-left:5%;
-font-size:1.2em;
-
-
-
-}
 #facebook
 {
 
@@ -433,9 +420,8 @@ font-size:1.2em;
 }
 .social-networking
 {
-width:90%;
-padding-left:10%;
-padding-top:10px;
+width:100%;
+
 
 
 }
