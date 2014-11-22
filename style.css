@@ -763,7 +763,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 }
 
 
-#page-content h3 {
+#page-content h2 {
 	border-bottom: 3px double #769a0f;
 	margin-bottom:1em;
 	text-align: center;
@@ -772,11 +772,17 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 #page-content p {
 
 }
-#page-content h3 {
-	font-size:21pt;
+#page-content h2 {
+	font-size:1.5em;
 	margin-top:10px;
 	color:#2B621D;
 	margin-left:20px;
+}
+
+#bread-crumb
+{
+	color:#2B621D;
+
 }
 
 #page-content p {
@@ -784,8 +790,24 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	margin-right:20px;
 	margin-top:10px;
 }
-#page-content a {
-	color:#2B621D;
+
+#about-statement {
+	width:100%;
+
+
+}
+
+#about-statement p
+{
+	font-size:1em;
+
+
+
+}
+
+#about-statement p::first-letter
+{
+font-size:1.3em;
 
 }
 
@@ -801,17 +823,17 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 }
 #page-content #page-main-content .page-content-section {
 	width:100%;
-
 	float: left;
 	overflow:hidden;
 
 }
 
 
-#page-content #page-main-content .page-content-section h4{
+#page-content #page-main-content .page-content-section h3{
 	 color: #769a0f;
-	margin-top:5px;
+	margin-top:20px;
 	margin-left:20px;
+	text-decoration:underline;
 }
 
 #page-content #page-main-content .page-content-section div {
@@ -820,9 +842,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 }
 
 
-#page-content #page-main-content .page-content-section div {
-	 overflow:hidden;
-}
+
 
 
 #page-content #page-main-content .page-content-section img {
@@ -834,7 +854,15 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 
 .read-more
 {
-color:blue;
-margin-left:20px;
+
+margin-bottom:20px;
+
+
+}
+
+p.read-more a
+{
+font-size:1.1em;
+color:#6495ED;
 
 }
