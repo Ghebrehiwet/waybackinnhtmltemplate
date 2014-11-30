@@ -210,7 +210,8 @@ div#welcome{
 	float:left;
 	background-color:#FFFEF8;
 	font-family:Arial;
-	overflow:scroll;
+	overflow-y:scroll;
+	
 }
 div#welcome h3
 {
@@ -446,7 +447,8 @@ div#testimonials{
 	margin-bottom:20px;
 	float:right;
 	position:relative;
-	overflow:scroll;
+	overflow-y:scroll;
+	border-radius:10px;
 }
 div#testimonials span {
 	width:100%;
@@ -489,16 +491,17 @@ div#ads{
 	height:140px;
 	background-color:#FFFEF9;
 	clear:both;
+	border-radius:10px;
 }
 #amazon-smile
 {
-
+margin-left:2.127659%;
 
 }
 
 #amazon-smile, #volunteer-match, #shop-with-scrip
 {
-width:31.914893%;
+width:30.914893%;
 background-color:#FFFEF9;
 float:left;
 height:140px;
@@ -526,6 +529,7 @@ footer{
 	margin-top:20px;
 	clear:both;
 	display:table;
+	border-radius:10px;
 
 
 }
@@ -533,9 +537,11 @@ footer div {
 	width:33%;
 	vertical-align:middle;
 	display:table-cell;
+	
 }
 footer div:first-child {
 	padding-left:10%;
+	
 }
 footer span {
 	width:100%;
