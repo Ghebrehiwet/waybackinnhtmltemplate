@@ -7,10 +7,10 @@
 html{
 	max-width:1200px;
 	margin:0 auto;
-	background-color:#E6E6E6;
+	
 }
 body {
-background-color:#F2F2F2;
+background-color:#e8f0c9;
 font-size:1em;
 
 }
@@ -447,7 +447,7 @@ div#testimonials{
 	margin-bottom:20px;
 	float:right;
 	position:relative;
-	overflow-y:scroll;
+	overflow:hidden;
 	border-radius:10px;
 }
 div#testimonials span {
@@ -468,7 +468,7 @@ div#testimonials a {
 	text-align:center;
 	position:absolute;
 	right:10px;
-	bottom:20px;
+	bottom:10px;
 }
 div#testimonials img {
 	float:left;
@@ -482,8 +482,10 @@ div#testimonials p {
 	margin-left:10px;
 	margin-right:10px;
 }
-
-
+div#testimonials .scroller {
+	overflow-y:scroll;
+	height:240px;
+}
 
 div#ads{
 	width:97.872341%;
