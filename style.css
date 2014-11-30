@@ -475,6 +475,7 @@ div#testimonials img {
 	float:left;
 	margin-left:10px;
 	margin-right:10px;
+	margin-top:10px;
 	width:200px;
 	height::100px;
 }
@@ -486,6 +487,7 @@ div#testimonials p {
 div#testimonials .scroller {
 	overflow-y:scroll;
 	height:240px;
+	margin-right:10px;
 }
 
 div#ads{
