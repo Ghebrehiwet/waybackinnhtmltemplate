@@ -224,6 +224,7 @@ div#welcome p
 {
 padding: 5%;
 font-size:1em;
+text-align:justify;
 
 }
 div#welcome p::first-letter
@@ -430,7 +431,7 @@ border-color: #aaab9c #fff #fff #ccc;
 
 
 
-}
+} 
 
 #twitter
 {
@@ -586,7 +587,7 @@ position:relative;
 #footer2 p
 {
 	position:absolute;
-	margin-top:11%;
+	margin-top:4px;
 	font-weight:bold;
 	text-align:center;
 	width:33%;
@@ -630,6 +631,7 @@ position:relative;
 	width:23.404255%;
 	float:right;
 	margin-top:10px;
+	margin-right:0.8%;
 }
 /*start top list sidebar buttons*/
 #side-bar-buttons1
@@ -639,26 +641,20 @@ position:relative;
 	height:340px;
 	background-color:#B9D59D;
 	margin-top:80px;
-
 	float:left;
 	text-transform: uppercase;
 }
 
 ul#button-list3
 {
-
 	list-style: none;
 	width: 100%;
-
 }
 
 ul#button-list3 li
 {
 	display: block;
 	margin-bottom:20px;
-
-
-
 }
 
 ul#button-list3 li a
@@ -704,24 +700,18 @@ ul#button-list3 li a:hover, ul#button-list3 li#active a:hover
 
 	float:left;
 	text-transform: uppercase;
-
 }
 
 ul#button-list4
 {
-
 	list-style: none;
 	width: 100%;
-
 }
 
 ul#button-list4 li
 {
 	display: block;
 	margin-bottom:20px;
-
-
-
 }
 
 ul#button-list4 li a
@@ -767,16 +757,27 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	height:100px;
 	margin-top:60px;
 
-
 }
+#side-button-six
+{
 
+	background-color:#fff;
+	border-radius:20px;
+}
 #sidebar-facebook, #sidebar-twitter
 {
 	width:33.33333%;
-	margin-left:11%;
+	margin-left:12%;
+	margin-top:10%;
 	height:100%;
 	float:left;
-	background-color:#B9D59D;
+}
+
+#sidebar-facebook img, #sidebar-twitter img
+{
+	margin-top:5%;
+	margin-left:10%;
+	width:80%;
 }
 
 .social-networking
@@ -842,7 +843,10 @@ font-size:1.3em;
 	overflow:hidden;
 
 }
-
+#page-main-content:last-child {
+	padding-bottom:25px;
+}
+	
 
 #page-content #page-main-content .page-content-section {
 	width:97.916667%;
@@ -874,9 +878,9 @@ font-size:1.3em;
 	 margin-right:20px;
 	 margin-left:20px;
 	 margin-top:10px;
-}
+} 
 
-.read-more {
+.read-more { 
 margin-bottom:20px;
 position:absolute;
 right:10px;
